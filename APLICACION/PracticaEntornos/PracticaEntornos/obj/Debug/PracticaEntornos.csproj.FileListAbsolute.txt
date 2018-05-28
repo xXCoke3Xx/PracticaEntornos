@@ -7,3 +7,13 @@ G:\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\bin\Debu
 G:\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\obj\Debug\PracticaEntornos.exe
 G:\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\obj\Debug\PracticaEntornos.pdb
 G:\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\obj\Debug\PracticaEntornos.Form1.resources
+C:\Users\dam\Documents\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\bin\Debug\PracticaEntornos.exe.config
+C:\Users\dam\Documents\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\bin\Debug\PracticaEntornos.exe
+C:\Users\dam\Documents\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\bin\Debug\PracticaEntornos.pdb
+C:\Users\dam\Documents\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\obj\Debug\PracticaEntornos.csprojResolveAssemblyReference.cache
+C:\Users\dam\Documents\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\obj\Debug\PracticaEntornos.Form1.resources
+C:\Users\dam\Documents\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\obj\Debug\PracticaEntornos.Properties.Resources.resources
+C:\Users\dam\Documents\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\obj\Debug\PracticaEntornos.csproj.GenerateResource.Cache
+C:\Users\dam\Documents\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\obj\Debug\PracticaEntornos.csproj.CoreCompileInputs.cache
+C:\Users\dam\Documents\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\obj\Debug\PracticaEntornos.exe
+C:\Users\dam\Documents\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\obj\Debug\PracticaEntornos.pdb

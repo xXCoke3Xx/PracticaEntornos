@@ -34,6 +34,30 @@
             this.itemSalir = new System.Windows.Forms.ToolStripMenuItem();
             this.item2Editar = new System.Windows.Forms.ToolStripMenuItem();
             this.item3Ver = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemAñadir = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemModificar = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemEliminar = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemAnAlumnos = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemAnAsignaturas = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemAnCursos = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemAnNominas = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemAnNotas = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemAnProfesores = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemAnMatricula = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemMoAlumnos = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemMoAsignaturas = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemMoCursos = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemMoNominas = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemMoNotas = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemMoProfesores = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemMoMatricula = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemElAlumnos = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemElAsignaturas = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemElCursos = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemElNominas = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemElNotas = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemElProfesores = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemElMatricula = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,11 +86,15 @@
             // itemSalir
             // 
             this.itemSalir.Name = "itemSalir";
-            this.itemSalir.Size = new System.Drawing.Size(96, 22);
+            this.itemSalir.Size = new System.Drawing.Size(152, 22);
             this.itemSalir.Text = "Salir";
             // 
             // item2Editar
             // 
+            this.item2Editar.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.itemAñadir,
+            this.itemModificar,
+            this.itemEliminar});
             this.item2Editar.Name = "item2Editar";
             this.item2Editar.Size = new System.Drawing.Size(49, 20);
             this.item2Editar.Text = "Editar";
@@ -76,6 +104,174 @@
             this.item3Ver.Name = "item3Ver";
             this.item3Ver.Size = new System.Drawing.Size(36, 20);
             this.item3Ver.Text = "Ver";
+            // 
+            // itemAñadir
+            // 
+            this.itemAñadir.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.itemAnAlumnos,
+            this.itemAnAsignaturas,
+            this.itemAnCursos,
+            this.itemAnNominas,
+            this.itemAnNotas,
+            this.itemAnProfesores,
+            this.itemAnMatricula});
+            this.itemAñadir.Name = "itemAñadir";
+            this.itemAñadir.Size = new System.Drawing.Size(152, 22);
+            this.itemAñadir.Text = "Añadir";
+            // 
+            // itemModificar
+            // 
+            this.itemModificar.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.itemMoAlumnos,
+            this.itemMoAsignaturas,
+            this.itemMoCursos,
+            this.itemMoNominas,
+            this.itemMoNotas,
+            this.itemMoProfesores,
+            this.itemMoMatricula});
+            this.itemModificar.Name = "itemModificar";
+            this.itemModificar.Size = new System.Drawing.Size(152, 22);
+            this.itemModificar.Text = "Modificar";
+            // 
+            // itemEliminar
+            // 
+            this.itemEliminar.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.itemElAlumnos,
+            this.itemElAsignaturas,
+            this.itemElCursos,
+            this.itemElNominas,
+            this.itemElNotas,
+            this.itemElProfesores,
+            this.itemElMatricula});
+            this.itemEliminar.Name = "itemEliminar";
+            this.itemEliminar.Size = new System.Drawing.Size(152, 22);
+            this.itemEliminar.Text = "Eliminar";
+            // 
+            // itemAnAlumnos
+            // 
+            this.itemAnAlumnos.Name = "itemAnAlumnos";
+            this.itemAnAlumnos.Size = new System.Drawing.Size(189, 22);
+            this.itemAnAlumnos.Text = "Alumnos";
+            // 
+            // itemAnAsignaturas
+            // 
+            this.itemAnAsignaturas.Name = "itemAnAsignaturas";
+            this.itemAnAsignaturas.Size = new System.Drawing.Size(189, 22);
+            this.itemAnAsignaturas.Text = "Asignaturas";
+            // 
+            // itemAnCursos
+            // 
+            this.itemAnCursos.Name = "itemAnCursos";
+            this.itemAnCursos.Size = new System.Drawing.Size(189, 22);
+            this.itemAnCursos.Text = "Cursos";
+            // 
+            // itemAnNominas
+            // 
+            this.itemAnNominas.Name = "itemAnNominas";
+            this.itemAnNominas.Size = new System.Drawing.Size(189, 22);
+            this.itemAnNominas.Text = "Nominas";
+            // 
+            // itemAnNotas
+            // 
+            this.itemAnNotas.Name = "itemAnNotas";
+            this.itemAnNotas.Size = new System.Drawing.Size(189, 22);
+            this.itemAnNotas.Text = "Notas";
+            // 
+            // itemAnProfesores
+            // 
+            this.itemAnProfesores.Name = "itemAnProfesores";
+            this.itemAnProfesores.Size = new System.Drawing.Size(189, 22);
+            this.itemAnProfesores.Text = "Profesores";
+            // 
+            // itemAnMatricula
+            // 
+            this.itemAnMatricula.Name = "itemAnMatricula";
+            this.itemAnMatricula.Size = new System.Drawing.Size(189, 22);
+            this.itemAnMatricula.Text = "Solicitud de matricula";
+            // 
+            // itemMoAlumnos
+            // 
+            this.itemMoAlumnos.Name = "itemMoAlumnos";
+            this.itemMoAlumnos.Size = new System.Drawing.Size(189, 22);
+            this.itemMoAlumnos.Text = "Alumnos";
+            // 
+            // itemMoAsignaturas
+            // 
+            this.itemMoAsignaturas.Name = "itemMoAsignaturas";
+            this.itemMoAsignaturas.Size = new System.Drawing.Size(189, 22);
+            this.itemMoAsignaturas.Text = "Asignaturas";
+            // 
+            // itemMoCursos
+            // 
+            this.itemMoCursos.Name = "itemMoCursos";
+            this.itemMoCursos.Size = new System.Drawing.Size(189, 22);
+            this.itemMoCursos.Text = "Cursos";
+            // 
+            // itemMoNominas
+            // 
+            this.itemMoNominas.Name = "itemMoNominas";
+            this.itemMoNominas.Size = new System.Drawing.Size(189, 22);
+            this.itemMoNominas.Text = "Nominas";
+            // 
+            // itemMoNotas
+            // 
+            this.itemMoNotas.Name = "itemMoNotas";
+            this.itemMoNotas.Size = new System.Drawing.Size(189, 22);
+            this.itemMoNotas.Text = "Notas";
+            // 
+            // itemMoProfesores
+            // 
+            this.itemMoProfesores.Name = "itemMoProfesores";
+            this.itemMoProfesores.Size = new System.Drawing.Size(189, 22);
+            this.itemMoProfesores.Text = "Profesores";
+            // 
+            // itemMoMatricula
+            // 
+            this.itemMoMatricula.Name = "itemMoMatricula";
+            this.itemMoMatricula.Size = new System.Drawing.Size(189, 22);
+            this.itemMoMatricula.Text = "Solicitud de matricula";
+            // 
+            // itemElAlumnos
+            // 
+            this.itemElAlumnos.Name = "itemElAlumnos";
+            this.itemElAlumnos.Size = new System.Drawing.Size(189, 22);
+            this.itemElAlumnos.Text = "Alumnos";
+            // 
+            // itemElAsignaturas
+            // 
+            this.itemElAsignaturas.Name = "itemElAsignaturas";
+            this.itemElAsignaturas.Size = new System.Drawing.Size(189, 22);
+            this.itemElAsignaturas.Text = "Asignaturas";
+            // 
+            // itemElCursos
+            // 
+            this.itemElCursos.Name = "itemElCursos";
+            this.itemElCursos.Size = new System.Drawing.Size(189, 22);
+            this.itemElCursos.Text = "Cursos";
+            // 
+            // itemElNominas
+            // 
+            this.itemElNominas.Name = "itemElNominas";
+            this.itemElNominas.Size = new System.Drawing.Size(189, 22);
+            this.itemElNominas.Text = "Nominas";
+            // 
+            // itemElNotas
+            // 
+            this.itemElNotas.Name = "itemElNotas";
+            this.itemElNotas.Size = new System.Drawing.Size(189, 22);
+            this.itemElNotas.Text = "Notas";
+            // 
+            // itemElProfesores
+            // 
+            this.itemElProfesores.Name = "itemElProfesores";
+            this.itemElProfesores.Size = new System.Drawing.Size(189, 22);
+            this.itemElProfesores.Text = "Profesores";
+            // 
+            // itemElMatricula
+            // 
+            this.itemElMatricula.Name = "itemElMatricula";
+            this.itemElMatricula.Size = new System.Drawing.Size(189, 22);
+            this.itemElMatricula.Text = "Solicitud de matricula";
             // 
             // Form1
             // 
@@ -103,6 +299,30 @@
         private System.Windows.Forms.ToolStripMenuItem item2Editar;
         private System.Windows.Forms.ToolStripMenuItem item3Ver;
         private System.Windows.Forms.ToolStripMenuItem itemSalir;
+        private System.Windows.Forms.ToolStripMenuItem itemAñadir;
+        private System.Windows.Forms.ToolStripMenuItem itemModificar;
+        private System.Windows.Forms.ToolStripMenuItem itemEliminar;
+        private System.Windows.Forms.ToolStripMenuItem itemAnAlumnos;
+        private System.Windows.Forms.ToolStripMenuItem itemAnAsignaturas;
+        private System.Windows.Forms.ToolStripMenuItem itemAnCursos;
+        private System.Windows.Forms.ToolStripMenuItem itemAnNominas;
+        private System.Windows.Forms.ToolStripMenuItem itemAnNotas;
+        private System.Windows.Forms.ToolStripMenuItem itemAnProfesores;
+        private System.Windows.Forms.ToolStripMenuItem itemAnMatricula;
+        private System.Windows.Forms.ToolStripMenuItem itemMoAlumnos;
+        private System.Windows.Forms.ToolStripMenuItem itemMoAsignaturas;
+        private System.Windows.Forms.ToolStripMenuItem itemMoCursos;
+        private System.Windows.Forms.ToolStripMenuItem itemMoNominas;
+        private System.Windows.Forms.ToolStripMenuItem itemMoNotas;
+        private System.Windows.Forms.ToolStripMenuItem itemMoProfesores;
+        private System.Windows.Forms.ToolStripMenuItem itemMoMatricula;
+        private System.Windows.Forms.ToolStripMenuItem itemElAlumnos;
+        private System.Windows.Forms.ToolStripMenuItem itemElAsignaturas;
+        private System.Windows.Forms.ToolStripMenuItem itemElCursos;
+        private System.Windows.Forms.ToolStripMenuItem itemElNominas;
+        private System.Windows.Forms.ToolStripMenuItem itemElNotas;
+        private System.Windows.Forms.ToolStripMenuItem itemElProfesores;
+        private System.Windows.Forms.ToolStripMenuItem itemElMatricula;
     }
 }
 
