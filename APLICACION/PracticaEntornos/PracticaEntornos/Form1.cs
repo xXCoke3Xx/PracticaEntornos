@@ -130,6 +130,7 @@ namespace PracticaEntornos
             fs6.Close();
         }
 
+        /** Botones de agregar */
         private void itemAnAlumnos_Click(object sender, EventArgs e)
         {
             Form_AñAlumnos fAñAlumno = new Form_AñAlumnos();
@@ -170,6 +171,94 @@ namespace PracticaEntornos
         {
             Form_AñMatricula fAñMatricula = new Form_AñMatricula();
             fAñMatricula.Show();
+        }
+
+
+        /** Botones de editar */
+        private void itemMoAlumnos_Click(object sender, EventArgs e)
+        {
+            Form_EdAlumnos fEdAlumnos = new Form_EdAlumnos();
+            fEdAlumnos.Show();
+        }
+
+        private void itemMoAsignaturas_Click(object sender, EventArgs e)
+        {
+            Form_EdAsignaturas fEdAsignaturas = new Form_EdAsignaturas();
+            fEdAsignaturas.Show();
+        }
+
+        private void itemMoCursos_Click(object sender, EventArgs e)
+        {
+            Form_EdCursos fEdCurso = new Form_EdCursos();
+            fEdCurso.Show();
+        }
+
+        private void itemMoNominas_Click(object sender, EventArgs e)
+        {
+            Form_EdNominas fEdNominas = new Form_EdNominas();
+            fEdNominas.Show();
+        }
+
+        private void itemMoNotas_Click(object sender, EventArgs e)
+        {
+            Form_EdNotas fEdNotas = new Form_EdNotas();
+            fEdNotas.Show();
+        }
+
+        private void itemMoProfesores_Click(object sender, EventArgs e)
+        {
+            Form_EdProfesores fEdProfesores = new Form_EdProfesores();
+            fEdProfesores.Show();
+        }
+
+        private void itemMoMatricula_Click(object sender, EventArgs e)
+        {
+            Form_EdMatricula fEdMatricula = new Form_EdMatricula();
+            fEdMatricula.Show();
+        }
+
+
+        /** Botones de eliminar */
+        private void itemElAlumnos_Click(object sender, EventArgs e)
+        {
+            Form_DeAlumnos fDeAlumnos = new Form_DeAlumnos();
+            fDeAlumnos.Show();
+        }
+
+        private void itemElAsignaturas_Click(object sender, EventArgs e)
+        {
+            Form_DeAsignaturas fDeAsignaturas = new Form_DeAsignaturas();
+            fDeAsignaturas.Show();
+        }
+
+        private void itemElCursos_Click(object sender, EventArgs e)
+        {
+            Form_DeCursos fDeCursos = new Form_DeCursos();
+            fDeCursos.Show();
+        }
+
+        private void itemElNominas_Click(object sender, EventArgs e)
+        {
+            Form_DeNominas fDeNominas = new Form_DeNominas();
+            fDeNominas.Show();
+        }
+
+        private void itemElNotas_Click(object sender, EventArgs e)
+        {
+            Form_DeNotas fDeNotas = new Form_DeNotas();
+            fDeNotas.Show();
+        }
+
+        private void itemElProfesores_Click(object sender, EventArgs e)
+        {
+            Form_DeProfesores fDeProfesores = new Form_DeProfesores();
+            fDeProfesores.Show();
+        }
+
+        private void itemElMatricula_Click(object sender, EventArgs e) 
+        {
+            Form_DeMatricula fDeMatricula = new Form_DeMatricula();
+            fDeMatricula.Show();
         }
     }
 }

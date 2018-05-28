@@ -17,3 +17,4 @@ C:\Users\dam\Documents\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\Pract
 C:\Users\dam\Documents\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\obj\Debug\PracticaEntornos.csproj.CoreCompileInputs.cache
 C:\Users\dam\Documents\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\obj\Debug\PracticaEntornos.exe
 C:\Users\dam\Documents\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\obj\Debug\PracticaEntornos.pdb
+C:\Users\dam\Documents\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\obj\Debug\PracticaEntornos.Form_AñAlumnos.resources

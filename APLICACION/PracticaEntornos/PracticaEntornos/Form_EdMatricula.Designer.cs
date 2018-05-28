@@ -1,6 +1,6 @@
 ﻿namespace PracticaEntornos
 {
-    partial class Form_EdAsignaturas
+    partial class Form_EdMatricula
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form_EdAsignaturas";
+            this.Text = "Form_EdMatricula";
         }
 
         #endregion

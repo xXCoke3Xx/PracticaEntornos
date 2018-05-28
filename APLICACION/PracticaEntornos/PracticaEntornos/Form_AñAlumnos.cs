@@ -15,6 +15,16 @@ namespace PracticaEntornos
         public Form_AñAlumnos()
         {
             InitializeComponent();
+            comboBox2.Items.Add("Hola");
+        }
+
+        private void Form_AñAlumnos_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
         }
     }
 }

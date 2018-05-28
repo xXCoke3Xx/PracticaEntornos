@@ -9,4 +9,7 @@ namespace PracticaEntornos_Biblioteca
     public class Class1
     {
     }
+    public class cargarDatos
+    {
+    }
 }

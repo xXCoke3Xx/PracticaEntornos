@@ -45,17 +45,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form-AñadirAlumno.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form-AñadirAlumno.Designer.cs">
-      <DependentUpon>Form-AñadirAlumno.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_AñAlumnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_AñAlumnos.Designer.cs">
+      <DependentUpon>Form_AñAlumnos.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_AñAsignaturas.cs">
       <SubType>Form</SubType>
@@ -93,10 +93,97 @@
     <Compile Include="Form_AñProfesores.Designer.cs">
       <DependentUpon>Form_AñProfesores.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_DeAlumnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_DeAlumnos.Designer.cs">
+      <DependentUpon>Form_DeAlumnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_DeAsignaturas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_DeAsignaturas.Designer.cs">
+      <DependentUpon>Form_DeAsignaturas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_DeCursos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_DeCursos.Designer.cs">
+      <DependentUpon>Form_DeCursos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_DeMatricula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_DeMatricula.Designer.cs">
+      <DependentUpon>Form_DeMatricula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_DeNominas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_DeNominas.Designer.cs">
+      <DependentUpon>Form_DeNominas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_DeNotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_DeNotas.Designer.cs">
+      <DependentUpon>Form_DeNotas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_DeProfesores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_DeProfesores.Designer.cs">
+      <DependentUpon>Form_DeProfesores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_EdAlumnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_EdAlumnos.Designer.cs">
+      <DependentUpon>Form_EdAlumnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_EdAsignaturas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_EdAsignaturas.Designer.cs">
+      <DependentUpon>Form_EdAsignaturas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_EdCursos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_EdCursos.Designer.cs">
+      <DependentUpon>Form_EdCursos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_EdMatricula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_EdMatricula.Designer.cs">
+      <DependentUpon>Form_EdMatricula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_EdNominas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_EdNominas.Designer.cs">
+      <DependentUpon>Form_EdNominas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_EdNotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_EdNotas.Designer.cs">
+      <DependentUpon>Form_EdNotas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_EdProfesores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_EdProfesores.Designer.cs">
+      <DependentUpon>Form_EdProfesores.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_AñAlumnos.resx">
+      <DependentUpon>Form_AñAlumnos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -119,6 +206,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AÑADIR\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

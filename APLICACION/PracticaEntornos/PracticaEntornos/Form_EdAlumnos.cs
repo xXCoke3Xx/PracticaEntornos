@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PracticaEntornos
 {
-    public partial class Form_EdAsignaturas : Form
+    public partial class Form_EdAlumnos : Form
     {
-        public Form_EdAsignaturas()
+        public Form_EdAlumnos()
         {
             InitializeComponent();
         }
