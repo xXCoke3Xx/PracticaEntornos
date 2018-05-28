@@ -28,12 +28,78 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.item1Archivo = new System.Windows.Forms.ToolStripMenuItem();
+            this.item2Editar = new System.Windows.Forms.ToolStripMenuItem();
+            this.item3Ver = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemSalir = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.item1Archivo,
+            this.item2Editar,
+            this.item3Ver});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1148, 28);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // item1Archivo
+            // 
+            this.item1Archivo.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.itemSalir});
+            this.item1Archivo.Name = "item1Archivo";
+            this.item1Archivo.Size = new System.Drawing.Size(71, 24);
+            this.item1Archivo.Text = "Archivo";
+            // 
+            // item2Editar
+            // 
+            this.item2Editar.Name = "item2Editar";
+            this.item2Editar.Size = new System.Drawing.Size(60, 24);
+            this.item2Editar.Text = "Editar";
+            // 
+            // item3Ver
+            // 
+            this.item3Ver.Name = "item3Ver";
+            this.item3Ver.Size = new System.Drawing.Size(42, 24);
+            this.item3Ver.Text = "Ver";
+            // 
+            // itemSalir
+            // 
+            this.itemSalir.Name = "itemSalir";
+            this.itemSalir.Size = new System.Drawing.Size(181, 26);
+            this.itemSalir.Text = "Salir";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(1148, 763);
+            this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
+            this.Name = "Form1";
+            this.Text = "Gestion Universidad";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem item1Archivo;
+        private System.Windows.Forms.ToolStripMenuItem item2Editar;
+        private System.Windows.Forms.ToolStripMenuItem item3Ver;
+        private System.Windows.Forms.ToolStripMenuItem itemSalir;
     }
 }
 

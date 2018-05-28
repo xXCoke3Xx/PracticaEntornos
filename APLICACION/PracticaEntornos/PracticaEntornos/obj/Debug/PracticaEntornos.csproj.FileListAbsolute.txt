@@ -1,0 +1,9 @@
+G:\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\obj\Debug\PracticaEntornos.Properties.Resources.resources
+G:\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\obj\Debug\PracticaEntornos.csproj.GenerateResource.Cache
+G:\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\obj\Debug\PracticaEntornos.csproj.CoreCompileInputs.cache
+G:\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\bin\Debug\PracticaEntornos.exe.config
+G:\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\bin\Debug\PracticaEntornos.exe
+G:\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\bin\Debug\PracticaEntornos.pdb
+G:\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\obj\Debug\PracticaEntornos.exe
+G:\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\obj\Debug\PracticaEntornos.pdb
+G:\GitHub\PracticaEntornos\APLICACION\PracticaEntornos\PracticaEntornos\obj\Debug\PracticaEntornos.Form1.resources
