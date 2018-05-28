@@ -132,7 +132,7 @@ namespace PracticaEntornos
 
         private void itemAnAlumnos_Click(object sender, EventArgs e)
         {
-            Form_AñadirAlumno fAñAlumno = new Form_AñadirAlumno();
+            Form_AñAlumnos fAñAlumno = new Form_AñAlumnos();
             fAñAlumno.Show();
         }
 
