@@ -152,42 +152,49 @@
             this.itemAnAlumnos.Name = "itemAnAlumnos";
             this.itemAnAlumnos.Size = new System.Drawing.Size(189, 22);
             this.itemAnAlumnos.Text = "Alumnos";
+            this.itemAnAlumnos.Click += new System.EventHandler(this.itemAnAlumnos_Click);
             // 
             // itemAnAsignaturas
             // 
             this.itemAnAsignaturas.Name = "itemAnAsignaturas";
             this.itemAnAsignaturas.Size = new System.Drawing.Size(189, 22);
             this.itemAnAsignaturas.Text = "Asignaturas";
+            this.itemAnAsignaturas.Click += new System.EventHandler(this.itemAnAsignaturas_Click);
             // 
             // itemAnCursos
             // 
             this.itemAnCursos.Name = "itemAnCursos";
             this.itemAnCursos.Size = new System.Drawing.Size(189, 22);
             this.itemAnCursos.Text = "Cursos";
+            this.itemAnCursos.Click += new System.EventHandler(this.itemAnCursos_Click);
             // 
             // itemAnNominas
             // 
             this.itemAnNominas.Name = "itemAnNominas";
             this.itemAnNominas.Size = new System.Drawing.Size(189, 22);
             this.itemAnNominas.Text = "Nominas";
+            this.itemAnNominas.Click += new System.EventHandler(this.itemAnNominas_Click);
             // 
             // itemAnNotas
             // 
             this.itemAnNotas.Name = "itemAnNotas";
             this.itemAnNotas.Size = new System.Drawing.Size(189, 22);
             this.itemAnNotas.Text = "Notas";
+            this.itemAnNotas.Click += new System.EventHandler(this.itemAnNotas_Click);
             // 
             // itemAnProfesores
             // 
             this.itemAnProfesores.Name = "itemAnProfesores";
             this.itemAnProfesores.Size = new System.Drawing.Size(189, 22);
             this.itemAnProfesores.Text = "Profesores";
+            this.itemAnProfesores.Click += new System.EventHandler(this.itemAnProfesores_Click);
             // 
             // itemAnMatricula
             // 
             this.itemAnMatricula.Name = "itemAnMatricula";
             this.itemAnMatricula.Size = new System.Drawing.Size(189, 22);
             this.itemAnMatricula.Text = "Solicitud de matricula";
+            this.itemAnMatricula.Click += new System.EventHandler(this.itemAnMatricula_Click);
             // 
             // itemMoAlumnos
             // 

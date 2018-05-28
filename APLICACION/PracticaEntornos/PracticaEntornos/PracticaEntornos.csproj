@@ -57,6 +57,42 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_AñAsignaturas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_AñAsignaturas.Designer.cs">
+      <DependentUpon>Form_AñAsignaturas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_AñCursos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_AñCursos.Designer.cs">
+      <DependentUpon>Form_AñCursos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_AñMatricula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_AñMatricula.Designer.cs">
+      <DependentUpon>Form_AñMatricula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_AñNominas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_AñNominas.Designer.cs">
+      <DependentUpon>Form_AñNominas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_AñNotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_AñNotas.Designer.cs">
+      <DependentUpon>Form_AñNotas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_AñProfesores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_AñProfesores.Designer.cs">
+      <DependentUpon>Form_AñProfesores.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

@@ -129,5 +129,47 @@ namespace PracticaEntornos
             FileStream fs6 = File.Create("C:/PracticaEntornosJorges/" + _fac + "/nominas.txt");
             fs6.Close();
         }
+
+        private void itemAnAlumnos_Click(object sender, EventArgs e)
+        {
+            Form_AñadirAlumno fAñAlumno = new Form_AñadirAlumno();
+            fAñAlumno.Show();
+        }
+
+        private void itemAnAsignaturas_Click(object sender, EventArgs e)
+        {
+            Form_AñAsignaturas fAñAsignatura = new Form_AñAsignaturas();
+            fAñAsignatura.Show();
+        }
+
+        private void itemAnCursos_Click(object sender, EventArgs e)
+        {
+            Form_AñCursos fAñCursos = new Form_AñCursos();
+            fAñCursos.Show();
+        }
+
+        private void itemAnNominas_Click(object sender, EventArgs e)
+        {
+            Form_AñNominas fAñNominas = new Form_AñNominas();
+            fAñNominas.Show();
+        }
+
+        private void itemAnNotas_Click(object sender, EventArgs e)
+        {
+            Form_AñNotas fAñNotas = new Form_AñNotas();
+            fAñNotas.Show();
+        }
+
+        private void itemAnProfesores_Click(object sender, EventArgs e)
+        {
+            Form_AñProfesores fAñProfesores = new Form_AñProfesores();
+            fAñProfesores.Show();
+        }
+
+        private void itemAnMatricula_Click(object sender, EventArgs e)
+        {
+            Form_AñMatricula fAñMatricula = new Form_AñMatricula();
+            fAñMatricula.Show();
+        }
     }
 }
